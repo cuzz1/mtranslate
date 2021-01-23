@@ -1,9 +1,15 @@
-Simple and fast, what else?
+## 翻译软件
 
-Fully working Google Translate API for python 2.7 and 3.x
+调用 Google API
 
-As simple as that:
-`translate("Bonjour","en","auto")` will return "Hello"
+## 如何使用
+```
+python3 main.py -c <content> -f <from_language> -t <to_language>
+python3 main.py -c "你好啊" -f ch -t en
+```
 
-Also on PyPi:
-https://pypi.python.org/pypi?:action=display&name=mtranslate
+## Python 打包
+pyinstaller 打包方法
+```
+pip3 install pyinstaller
+```
